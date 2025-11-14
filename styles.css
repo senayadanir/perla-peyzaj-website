@@ -1058,7 +1058,11 @@ footer {
         margin-bottom: 28px;
     }
 
+    form .hidden {
+        visibility: hidden;
+    }
 
+    
     .footer--container {
         flex-direction: row;
         justify-content: space-between;
