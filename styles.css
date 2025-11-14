@@ -721,7 +721,9 @@ textarea:focus::placeholder {
     justify-content: center;
 }
 
-
+form .hidden {
+        visibility: hidden;
+}
 
 footer {
     background-color: var(--secondary-color);
@@ -1056,10 +1058,6 @@ footer {
         padding: 16px;
         font-family: var(--primary-text);
         margin-bottom: 28px;
-    }
-
-    form .hidden {
-        visibility: hidden;
     }
 
     
